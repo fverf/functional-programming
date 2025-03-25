@@ -7,6 +7,5 @@ def increment(x):
 
 even_inc = gen_if_even_x(4)
 print(even_inc(increment))
-
 odd_inc = gen_if_even_x(3)
 print(odd_inc(increment))
