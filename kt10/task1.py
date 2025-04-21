@@ -21,7 +21,7 @@ multi_seq = multiples_of_3_or_5()
 print([next(multi_seq) for _ in range(10)])
 
 
-#3.ленивый генератор чисел Фибоначчи с начальных значений
+#3. ленивый генератор чисел Фибоначчи с начальных значений
 def fibonacci(a, b):
     while True:
         yield a
