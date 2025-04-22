@@ -1,4 +1,4 @@
-#числа фибоначчи
+# числа фибоначчи
 
 def fib(n):
     match n:
@@ -11,7 +11,7 @@ def fib(n):
 
 print(fib(10))
 
-#быстрая версия (fast_fib с аккумуляторами)
+# быстрая версия (fast_fib с аккумуляторами)
 
 def fast_fib(n1, n2, counter):
     while counter > 0:
