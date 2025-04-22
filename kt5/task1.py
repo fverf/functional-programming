@@ -1,4 +1,4 @@
-#1. функция repeat (бесконечное повторение значения)
+#1.функция repeat (бесконечное повторение значения)
 from itertools import repeat, islice
 
 repeat_ = lambda x: repeat(x)
