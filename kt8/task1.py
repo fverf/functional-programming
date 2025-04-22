@@ -1,4 +1,4 @@
-#проверка наличия элемента в списке с filter и count
+# проверка наличия элемента в списке с filter и count
 def contains(lst, value):
     return len(list(filter(lambda x: x == value, lst))) > 0
 
